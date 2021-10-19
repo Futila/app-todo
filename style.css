@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body, input, button{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+body{
+    background: #999;
+}
+
+input, button{
+    height: 48px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+  
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input{
+    width: 100%;
+}
+button{
+    width: 100%;
+    cursor: pointer;
+    background:#e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    font-size: 17px;
+    transition: filter 0.2s;
+   
+}
+button:hover{
+    filter: brightness(90%);
+}
+
+#app{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+   
+}
+
+#app ul {
+    margin-top: 20px;
+}
+
+#app ul li {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+}
